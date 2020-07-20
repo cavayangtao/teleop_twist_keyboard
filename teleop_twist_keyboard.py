@@ -50,8 +50,8 @@ moveBindings = {
 
         'i':( 0, 1, 0, 0),  # front
         ',':( 0,-1, 0, 0),  # back
-        'j':( 1, 0, 0, 0),  # left
-        'l':(-1, 0, 0, 0),  # right
+        'j':(-1, 0, 0, 0),  # left
+        'l':( 1, 0, 0, 0),  # right
         'u':( 0, 1, 0,-1),  # front-left
         'o':( 0, 1, 0, 1),  # front-right
         'm':( 0,-1, 0,-1),  # back-left
