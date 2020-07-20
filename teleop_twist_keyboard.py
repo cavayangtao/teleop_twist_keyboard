@@ -25,7 +25,7 @@ LEFT HAND:
 
 RIGHT HAND:
    u    i    o
-        k   
+   l    k    '   
    m    ,    .
 
 - : to takeoff
@@ -43,17 +43,19 @@ CTRL-C to quit
 """
 
 moveBindings = {
-        'w':(0, 0, 1, 0),   # Up
-        'x':(0, 0,-1, 0),   # Down
-        'a':(0, 0, 0,-1),   # yaw left
-        'd':(0, 0, 0, 1),   # yaw right
+        'w':( 0, 0, 1, 0),   # Up
+        'x':( 0, 0,-1, 0),   # Down
+        'a':( 0, 0, 0,-1),   # yaw left
+        'd':( 0, 0, 0, 1),   # yaw right
 
-        'i':(0, 1, 0, 0),  # front
-        ',':(0,-1, 0, 0),  # back
-        'u':(0, 1, 0,-1),  # front-left
-        'o':(0, 1, 0, 1),  # front-right
-        'm':(0,-1, 0,-1),  # back-left
-        '.':(0,-1, 0, 1),  # back-right
+        'i':( 0, 1, 0, 0),  # front
+        ',':( 0,-1, 0, 0),  # back
+        'j':( 1, 0, 0, 0),  # left
+        'l':(-1, 0, 0, 0),  # right
+        'u':( 0, 1, 0,-1),  # front-left
+        'o':( 0, 1, 0, 1),  # front-right
+        'm':( 0,-1, 0,-1),  # back-left
+        '.':( 0,-1, 0, 1),  # back-right
 
         'k':(0, 0, 0, 0),  # stop
     }
