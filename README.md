@@ -4,9 +4,10 @@ cd catkin_ws/src
 git clone -b tello_mode2 https://github.com/surfii3z/teleop_twist_keyboard.git 
 ```
 # Key binding
-```
-mode two 
 
+currently only support MODE TWO
+
+```
 LEFT HAND:
         w    
    a         d
