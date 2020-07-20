@@ -1,6 +1,8 @@
 # Installation for tello
-cd catkin_ws/src
+
 ```
+cd catkin_ws/src
+
 git clone -b tello_mode2 https://github.com/surfii3z/teleop_twist_keyboard.git 
 ```
 # Key binding
