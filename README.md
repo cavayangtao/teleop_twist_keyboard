@@ -17,7 +17,7 @@ LEFT HAND:
 
 RIGHT HAND:
    u    i    o
-        k   
+   j    k    l
    m    ,    .
    
 Description:
@@ -28,6 +28,8 @@ Description:
    
    i: forward 
    ,: backward
+   j: left
+   l: right
    
    u: forward-left
    o: forward-right
