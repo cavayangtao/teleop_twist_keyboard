@@ -1,3 +1,48 @@
+# Installation for tello
+
+```
+cd catkin_ws/src
+
+git clone -b tello_mode2 https://github.com/surfii3z/teleop_twist_keyboard.git 
+```
+# Key binding
+
+currently only support MODE TWO
+
+```
+LEFT HAND:
+        w    
+   a         d
+        x    
+
+RIGHT HAND:
+   u    i    o
+        k   
+   m    ,    .
+   
+Description:
+   w: up
+   x: down
+   a: yaw left
+   d: yaw right
+   
+   i: forward 
+   ,: backward
+   
+   u: forward-left
+   o: forward-right
+   m: backward-left
+   .: backward right
+
+- : to takeoff
+= : to land
+
+(need to hold SHIFT)
+>/< : increase/decrease linear speed by 10%
+```
+
+BELOW ARE THE ORIGINAL REPOSITORY
+---------------------------
 # teleop_twist_keyboard
 Generic Keyboard Teleop for ROS
 
