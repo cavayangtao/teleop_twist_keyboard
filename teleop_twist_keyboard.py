@@ -33,6 +33,7 @@ RIGHT HAND:
 
 (need to hold SHIFT)
 >/< : increase/decrease linear speed by 10%
+X/Z : increase/decrease angular speed by 10%
 
 
 anything else : stop
