@@ -63,6 +63,8 @@ moveBindings = {
 speedBindings={
         '>':(1.1, 1),
         '<':(.9, 1),
+        'X':(1, 1.1),
+        'Z':(1, 0.9),
     }
 
 triggerBindings={
@@ -201,7 +203,6 @@ if __name__=="__main__":
             elif key in speedBindings.keys():
                 speed = speed * speedBindings[key][0]
                 turn = turn * speedBindings[key][1]
-
                 print(vels(speed,turn))
                 if (status == 14):
                     print(msg)
